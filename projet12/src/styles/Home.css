@@ -1,0 +1,272 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+.Home {
+  display: flex;
+}
+
+.HomeLeft {
+  width: 117px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 1000px;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+
+/* Ajoutez ceci à votre fichier Home.css ou à l'endroit où vous définissez les styles */
+.Copyright {
+  writing-mode: vertical-rl;
+  text-orientation: unset;
+  white-space: nowrap;
+  rotate: 180deg;
+}
+
+.HomeRight h1 {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.HomeRight {
+  border: 2px solid black;
+  margin: 68px 90px 86px 107px;
+  height: 780px;
+  width: 1126px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Profil {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Profil p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.ProfilName {
+  display: flex;
+  gap: 10px;
+}
+
+.ProfilName p {
+  color: red;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.Analyse {
+  border: 1px solid black;
+  display: flex;
+  gap: 33px;
+}
+
+.AnalyseLeft {
+  width: 835px;
+  height: 100%;
+  gap: 28px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.AnalyseLeftTop {
+  width: 100%;
+  height: 325px;
+  gap: 64px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fbfbfb;
+  box-shadow: 0px 2px 4px 0px #00000005;
+}
+
+.AnalyseLeftTopText {
+  display: flex;
+  justify-content: space-between;
+  width: 88%;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  background: #20253a;
+}
+
+.AnalyseLeftTopTextPoidCal {
+  display: flex;
+  gap: 15px;
+  color: #74798c;
+}
+
+.statActivity {
+  display: flex;
+  flex-direction: column;
+  writing-mode: vertical-rl;
+  text-orientation: unset;
+  white-space: nowrap;
+  rotate: 180deg;
+  gap: 5px;
+}
+
+.AnalyseLeftBottom {
+  display: flex;
+  width: 100%;
+  height: 263px;
+  border: 1px solid black;
+  justify-content: space-between;
+}
+
+.cubePerformance {
+  width: 258px;
+  border: 1px solid green;
+  background: #ff0000;
+}
+
+.cubeKind {
+  width: 258px;
+  border: 1px solid green;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  background: #282d30;
+  box-shadow: 0px 2px 4px 0px #00000005;
+  color: #ffffff;
+}
+
+.cubeScore {
+  background: #fbfbfb;
+  width: 258px;
+  border: 1px solid green;
+  box-shadow: 0px 2px 4px 0px #00000005;
+}
+
+text {
+  width: 95px;
+  height: 56px;
+}
+
+.scoreText {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  /* font-family: Roboto;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center; */
+}
+
+.cubePerformance {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.AnalyseRight {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.card {
+  height: 124px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fbfbfb;
+  box-shadow: 0px 2px 4px 0px #00000005;
+  gap: 24px;
+}
+
+.card img {
+  width: 60px;
+  height: 60px;
+}
+
+.cardstyle {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
+
+.cardstyle1 {
+  width: 91px;
+  height: 24px;
+  color: #282d30;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.cardstyle2 {
+  width: 91px;
+  height: 24px;
+  color: #282d30;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #74798c;
+  width: 52px;
+  height: 24px;
+}
+
+/*charbart*/
+
+.chart {
+  width: 100%;
+}
+
+#SvgjsG2931,
+#iSvgjsG2977,
+.apexcharts-series {
+  width: 7px;
+  border-radius: 0.5px, 3.5px, 0px, 0px;
+}

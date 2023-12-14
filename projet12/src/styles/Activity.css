@@ -1,0 +1,9 @@
+.statActivity {
+  display: flex;
+  flex-direction: column;
+  writing-mode: vertical-rl;
+  text-orientation: unset;
+  white-space: nowrap;
+  rotate: 180deg;
+  gap: 5px;
+}
